@@ -1,0 +1,44 @@
+.purpose {
+  font-size: 18px;
+  line-height: 1.5em;
+  padding: 24px;
+}
+
+.task-list {
+  list-style: none;
+  padding: 24px;
+}
+.task-list li {
+  padding: 24px;
+}
+.task-list li:hover {
+  background-color: #eee;
+  text-decoration: none;
+}
+
+.finished {
+  text-decoration: line-through;
+}
+.finished img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+@media (min-width: 1200px) {
+  .task-list {
+    width: 960px;
+    margin: 0 auto;
+    border: 1px #ddd solid;
+  }
+}
+
+.task-details {
+  list-style: none;
+  padding: 24px;
+}
+.task-details li {
+  padding: 24px;
+}
+.task-details li img {
+  margin-right: 24px;
+}
